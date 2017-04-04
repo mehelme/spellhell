@@ -1,0 +1,74 @@
+calculator.cpp:172:30: warning: Sqrt (bad spelling)
+     if (clickedOperator == tr("Sqrt")) {
+                            ~~^~~~~~~~
+calculator.cpp:82:39: warning: digitClicked (bad spelling)
+         digitButtons[i] = createButton(QString::number(i), SLOT(digitClicked()));
+                           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+calculator.cpp:85:69: warning: pointClicked (bad spelling)
+     Button *pointButton = createButton(tr("."), SLOT(pointClicked()));
+                                                                     ^
+calculator.cpp:86:86: warning: changeSignClicked (bad spelling)
+     Button *changeSignButton = createButton(tr("\302\261"), SLOT(changeSignClicked()));
+                                                                                      ^
+calculator.cpp:88:85: warning: backspaceClicked (bad spelling)
+     Button *backspaceButton = createButton(tr("Backspace"), SLOT(backspaceClicked()));
+                                                                                     ^
+calculator.cpp:90:76: warning: clearAll (bad spelling)
+     Button *clearAllButton = createButton(tr("Clear All"), SLOT(clearAll()));
+                                                                            ^
+calculator.cpp:92:75: warning: clearMemory (bad spelling)
+     Button *clearMemoryButton = createButton(tr("MC"), SLOT(clearMemory()));
+                                                                           ^
+calculator.cpp:93:73: warning: readMemory (bad spelling)
+     Button *readMemoryButton = createButton(tr("MR"), SLOT(readMemory()));
+                                                                         ^
+calculator.cpp:94:71: warning: setMemory (bad spelling)
+     Button *setMemoryButton = createButton(tr("MS"), SLOT(setMemory()));
+                                                                       ^
+calculator.cpp:95:75: warning: addToMemory (bad spelling)
+     Button *addToMemoryButton = createButton(tr("M+"), SLOT(addToMemory()));
+                                                                           ^
+calculator.cpp:97:96: warning: multiplicativeOperatorClicked (bad spelling)
+     Button *divisionButton = createButton(tr("\303\267"), SLOT(multiplicativeOperatorClicked()));
+                                                                                                ^
+calculator.cpp:98:93: warning: multiplicativeOperatorClicked (bad spelling)
+     Button *timesButton = createButton(tr("\303\227"), SLOT(multiplicativeOperatorClicked()));
+                                                                                             ^
+calculator.cpp:99:80: warning: additiveOperatorClicked (bad spelling)
+     Button *minusButton = createButton(tr("-"), SLOT(additiveOperatorClicked()));
+                                                                                ^
+calculator.cpp:100:79: warning: additiveOperatorClicked (bad spelling)
+     Button *plusButton = createButton(tr("+"), SLOT(additiveOperatorClicked()));
+                                                                               ^
+calculator.cpp:102:47: warning: Sqrt (bad spelling)
+     Button *squareRootButton = createButton(tr("Sqrt"), SLOT(unaryOperatorClicked()));
+                                             ~~^~~~~~~~
+calculator.cpp:102:85: warning: unaryOperatorClicked (bad spelling)
+     Button *squareRootButton = createButton(tr("Sqrt"), SLOT(unaryOperatorClicked()));
+                                                                                     ^
+calculator.cpp:103:85: warning: unaryOperatorClicked (bad spelling)
+     Button *powerButton = createButton(tr("x\302\262"), SLOT(unaryOperatorClicked()));
+                                                                                     ^
+calculator.cpp:104:84: warning: unaryOperatorClicked (bad spelling)
+     Button *reciprocalButton = createButton(tr("1/x"), SLOT(unaryOperatorClicked()));
+                                                                                    ^
+calculator.cpp:105:69: warning: equalClicked (bad spelling)
+     Button *equalButton = createButton(tr("="), SLOT(equalClicked()));
+                                                                     ^
+{standard input}: Assembler messages:
+{standard input}:2: Error: no such instruction: `spell checking string:43'
+{standard input}:3: Error: no such instruction: `spell checking string:45'
+{standard input}:4: Error: no such instruction: `spell checking string:195—10Spell checking string:195·10Spell checking string:35'
+{standard input}:5: Error: no such instruction: `spell checking string:50clicked()10Spell checking string:48'
+{standard input}:6: Error: no such instruction: `spell checking string:48'
+{standard input}:7: Error: no such instruction: `spell checking string:48'
+{standard input}:8: Error: no such instruction: `spell checking string:45'
+{standard input}:9: Error: no such instruction: `spell checking string:48'
+{standard input}:10: Error: no such instruction: `spell checking string:46'
+{standard input}:11: Error: no such instruction: `spell checking string:83qrt10Spell checking string:120Â²10Spell checking string:49/x10Spell checking string:48'
+{standard input}:12: Error: no such instruction: `spell checking string:48'
+{standard input}:13: Error: no such instruction: `spell checking string:49digitClicked()10Spell checking string:46'
+{standard input}:14: Error: no such instruction: `spell checking string:49pointClicked()10Spell checking string:194±10Spell checking string:49changeSignClicked()10Spell checking string:66ackspace10Spell checking string:49backspaceClicked()10Spell checking string:67lear10Spell checking string:49clear()10Spell checking string:67lear All10Spell checking string:49clearAll()10Spell checking string:77C10Spell checking string:49clearMemory()10Spell checking string:77R10Spell checking string:49readMemory()10Spell checking string:77S10Spell checking string:49setMemory()10Spell checking string:77+10Spell checking string:49addToMemory()10Spell checking string:195·10Spell checking string:49multiplicativeOperatorClicked()10Spell checking string:195—10Spell checking string:49multiplicativeOperatorClicked()10Spell checking string:45'
+{standard input}:15: Error: no such instruction: `spell checking string:49additiveOperatorClicked()10Spell checking string:43'
+{standard input}:16: Error: no such instruction: `spell checking string:49additiveOperatorClicked()10Spell checking string:83qrt10Spell checking string:49unaryOperatorClicked()10Spell checking string:120Â²10Spell checking string:49unaryOperatorClicked()10Spell checking string:49/x10Spell checking string:49unaryOperatorClicked()10Spell checking string:61'
+{standard input}:17: Error: no such instruction: `spell checking string:49equalClicked()10Spell checking string:67alculator10'
